@@ -9,9 +9,17 @@ To write a Python program that calculates the **sum of all elements** in a list.
 3. Print the result.
 
 ## 🧾 Program
-
-Add code here
+```
+def createlist(N):
+    even_list=[i for i in range(12,N,2)]
+    total=sum(even_list)
+    print("List =", even_list)
+    print("Sum of the list",total)
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/5465b1c8-e358-48ce-accd-1c595d60b86d)
+
 
 ## Result
+Thus the program executed successfully
